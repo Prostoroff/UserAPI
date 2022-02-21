@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 struct Results: Decodable {
     let results: [User]
@@ -17,7 +18,6 @@ struct User: Decodable {
     let dob: Dob
     let phone: String
     let picture: Picture
-    
 }
 
 struct Name: Decodable {
